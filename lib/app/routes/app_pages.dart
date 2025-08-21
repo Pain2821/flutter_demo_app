@@ -16,6 +16,8 @@ import '../modules/permissions/bindings/permissions_binding.dart';
 import '../modules/permissions/views/permissions_view.dart';
 import '../modules/tictactoe/bindings/tictactoe_binding.dart';
 import '../modules/tictactoe/views/tictactoe_view.dart';
+import '../modules/tutorial/bindings/tutorial_binding.dart';
+import '../modules/tutorial/views/tutorial_view.dart';
 import '../modules/upcoming/views/upcoming_view.dart';
 
 class AppPages {
@@ -59,6 +61,11 @@ class AppPages {
       name: '/tictactoe',
       page: () => TicTacToeView(),
       binding: TicTacToeBinding(),
+    ),
+    GetPage(
+      name: '/tutorial',
+      page: () => TutorialView(),
+      binding: TutorialBinding(),
     ),
     GetPage(
       name: '/upcoming',

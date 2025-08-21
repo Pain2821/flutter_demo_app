@@ -43,6 +43,11 @@ class HomeView extends StatelessWidget {
                     onTap: () => Get.toNamed('/tictactoe'),
                   ),
                   _HomeMenuTile(
+                    icon: Icons.tsunami,
+                    label: "Tutorial",
+                    onTap: () => Get.toNamed('/tutorial'),
+                  ),
+                  _HomeMenuTile(
                     icon: Icons.upcoming,
                     label: "Upcoming",
                     onTap: () => Get.toNamed('/upcoming'),
